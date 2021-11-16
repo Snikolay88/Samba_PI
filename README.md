@@ -55,3 +55,5 @@ sudo smbpasswd -a pi
 sudo /etc/init.d/samba restart
 
 ```
+
+systemctl restart smbd.service && systemctl restart nmbd.service
